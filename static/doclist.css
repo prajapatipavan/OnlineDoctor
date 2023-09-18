@@ -1,0 +1,293 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+h1{
+
+    color: rgb(100, 37, 0);
+}
+
+html{
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    scroll-padding-top:7rem ;
+   
+}
+
+.head .loginx{
+
+    display: flex;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    left: -231px;
+    top: -4px;
+   
+   
+}
+
+.head .loginx li{
+
+   list-style: none;
+   text-decoration: none;
+   border: none;
+  
+}
+
+.head .loginx li a{
+
+    color: #f2f2f2;
+    align-items: end;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    right: -1494px;
+
+    top: -12px;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+
+ 
+ }
+
+
+.head .containar{
+
+    display: flex;
+    position: relative;
+    left: 349px;
+    cursor: pointer;
+ 
+    
+}
+
+.containar .one{
+    position: relative;
+    left: -147px;
+    top: 19px;
+}
+
+
+.containar .two{
+    position: relative;
+    left: -90px;
+    top: 19px;
+}
+
+
+.head {
+
+    padding: -10px 10px;
+    text-align: center;
+    background-color: rgb(44, 44, 113);
+    color: aliceblue;
+    z-index: -1;
+   
+}
+
+.pavan{
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+}
+
+.flex {
+
+    margin: 0px 183px;
+}
+
+.titles_style{
+    font-family: PoppinsSB !important;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3D94C1;
+    position: relative;
+    top: -182px;
+}
+
+.main_titles {
+    font-family: PoppinsB !important;
+    font-size: 50px;
+    line-height: 55px;
+    color: #242424;
+    position: relative;
+    top: -187px;
+    left: -12px;
+}
+
+
+button.btn5{
+    
+   color: white;
+    position: relative;
+    top: -7px;
+    left: 762px;
+    text-decoration: none;
+    padding: 8px;
+    z-index: 999;
+
+} 
+
+button.btn5 a{
+    text-decoration: none;
+}
+
+
+button.btn6{
+    
+    color: white;
+     position: relative;
+     top: -7px;
+     left: 546px;
+     text-decoration: none;
+     padding: 8px;
+     z-index: 999;
+ 
+ } 
+ 
+ button.btn6 a{
+     text-decoration: none;
+ }
+
+
+ .inp{
+
+    position: relative;
+    left: 1292px;
+    top: -18px;
+    
+
+ }
+
+ .inp input{
+
+    width: 202px;
+    height: 37px;
+    border: 2px solid #a47211;
+    border-radius: 20px;
+    padding: 20px;
+ }
+
+ .title{
+
+     background-color:#1778F2;
+
+ }
+
+ .title h1{
+
+   position: relative;
+   top: 20px;
+   left: 95px;
+    color: white;
+ }
+
+
+  .h33 h3 {
+
+    position: relative;
+    top: 10px;
+    left: 134px;
+    padding: 32px;
+}
+.doclist{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 829px;
+    height: 200px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    left: 149px;
+    border-radius: 20px;
+}
+
+.doclist .imgdoc img{
+    width: 92px;
+    height: 93px;
+    position:relative;
+    top: 25px ; 
+    left: 16px;
+   border: 1px solid red;
+   border-radius: 71px;
+}
+
+.doclist .imgdoc .namedoc p{
+    position: relative;
+    left: 152px;
+    top: -69px;
+    font-size: 24px;
+    font-family: "Nunito";
+}
+
+.des{
+    border: 1px dotted rgb(162, 164, 164);
+    width: 470px;
+    position: relative;
+    left: 152px;
+    top: -20px;
+}
+
+.exdoc p{
+    position: relative;
+    left: 152px;
+    top: -50px;
+    color: rgb(162, 164, 164);
+}
+
+.star
+{
+    background-color:#79AB28;
+    position: relative;
+    left: 152px;
+    top: -5px;
+    width: 180px;
+    padding: 10px;
+    color: #f2f2f2;
+}
+
+.star span{
+    font-size: 10px;   
+}
+
+.feedoc{
+    position: relative;
+    left: 683px;
+    top: -154px;
+}
+
+.fee1doc{
+    position: relative;
+    left: 744px;
+    top: -144px;
+}
+
+.btndoc{
+    position: relative;
+    left: 662px;
+    top: -100px;
+}
+
+.btndoc .btn{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 6px;
+    background-color: #f0eeee;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #007bff;
+    border: 1px solid  #007bff;
+}
+.btndoc .btn a{
+    text-decoration: none;
+}
+
+
+

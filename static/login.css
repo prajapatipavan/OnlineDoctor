@@ -1,0 +1,128 @@
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image:url("https://www.nicepng.com/png/detail/26-266973_image-page-transparent-background-oasis-skin-1-png.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #E3E6f3;
+    padding: 15px;
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.nav-img {
+
+    padding: 0px 80px;
+    position: relative;
+    top: 8px;
+}
+
+.list {
+
+    position: relative;
+    top: 23px;
+    left: -100px;
+
+}
+
+.list ul {
+
+    display: flex;
+
+}
+
+ul li {
+
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+}
+
+li a {
+
+    text-decoration: none;
+    transition: 0.3s;
+
+
+}
+
+li a:hover,
+li a.active {
+
+    color: #088178;
+}
+
+li a.active::after,
+li a:hover::after {
+
+    content: "";
+    width: 30px;
+    height: 2%;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.fromlog{
+
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+   margin-top: 90px;
+   
+    width: 400px;
+    height: 400px;
+    background-color: rgb(200, 210, 219);
+    box-shadow: 3px 3px 3px rgb(223, 217, 217);
+
+}
+
+.fromlog .in input{
+
+   width: 200px;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+
+}
+.fromlog .inn input{
+
+    width: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+ 
+ }
+
+ .fromlog .divvv{
+
+     position: relative;
+     top: 60px;
+ }
+
+ .login{
+
+    margin-bottom: 20px;
+ }

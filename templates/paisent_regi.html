@@ -1,0 +1,82 @@
+<style>
+    .regif #id_username {
+
+        position: relative;
+        left: 26px;
+
+    }
+
+    .regif .helptext {
+
+        display: none;
+    }
+
+
+    .regif #id_contact {
+        position: relative;
+        left: 39px;
+
+    }
+
+    .regif #id_password1 {
+        position: relative;
+        left: 26px;
+    }
+
+    .regif {
+
+        border: 2px solid green;
+        width: 540px;
+        background-color: white;
+        position: relative;
+        left: 516px;
+        top: 85px;
+
+    }
+
+    .regif .from {
+        position: relative;
+        left: 20px;
+    }
+
+    h1 {
+        position: relative;
+        left: 521px;
+        top: 92px;
+        border-left: 4px solid red;
+        border-radius: 20px;
+    }
+
+    .inp {
+
+        position: relative;
+        left: 88px;
+        background-color: rgb(38, 20, 151);
+        width: 300px;
+        height: 36px;
+        top: 6px;
+        color: antiquewhite;
+    }
+
+    h5{
+        position: relative;
+        left: 125px;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1>Registration Now</h1>
+
+<div class="regif">
+
+    <form method=POST class="from">
+        {{form.as_p}}
+        {% csrf_token %}
+        <input class="inp" type="submit" value="submit">
+        <form>
+
+
+            <h5>You Already Have Account? <a href="/user/login" style="text-decoration: none;"><span
+                        style="color: blue;">Login Now</span></a></h5>
+
+
+</div>
